@@ -2,6 +2,10 @@ pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
+fn main() {
+    println!("Hello, world!");
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
